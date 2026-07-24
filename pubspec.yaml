@@ -1,0 +1,49 @@
+name: nakeel_demo
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+  connectivity_plus: ^7.3.0
+  shared_preferences: ^2.5.3
+  internet_connection_checker_plus: ^3.1.1
+  barcode_widget: ^2.0.4
+  printing: ^5.14.3
+  pdf: ^3.11.3
+  permission_handler: ^12.0.3
+  gal: ^2.3.2
+  mobile_scanner: ^7.4.0
+  supabase_flutter: ^2.15.4
+  share_plus: ^12.0.2
+  path_provider: ^2.1.5
+  flutter_dotenv: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/app_icon.png
+    - .env
